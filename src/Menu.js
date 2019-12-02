@@ -7,6 +7,9 @@ import {
 import Order from "./Order";
 
 class Menu extends Component {
+    componentDidMount() {
+        document.title = 'Cutie Pie';
+    }
     render() {
         return (
             <HashRouter>
