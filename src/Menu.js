@@ -8,6 +8,7 @@ import {
     HashRouter
 } from "react-router-dom";
 import Order from "./Order";
+import ParallaxScrolling from "./ParallaxScrolling";
 
 class Menu extends Component {
     componentDidMount() {
@@ -16,7 +17,24 @@ class Menu extends Component {
     render() {
         return (
             <div>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+                <HashRouter>
+                    <div>
+                        <h1>MENU</h1>
+                        <ul className="header">
+                            <li><NavLink exact to="/">Home</NavLink></li>
+                            <li><NavLink exact to="/about">About us</NavLink></li>
+                            <li><NavLink exact to="/prices">Prices</NavLink></li>
+                            <li><NavLink exact to="/order">Order</NavLink></li>
+                            <li><NavLink exact to="/contact">Contact</NavLink></li>
+                        </ul>
+                        <div className="content">
+                            <Route exact path="/order" component={Order}/>
+                            <Route exact path="/" component={ParallaxScrolling}/>
+                        </div>
+                    </div>
+                </HashRouter></div>);
+
+        /*          <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Navbar.Brand href="#home">Cutie Pie</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -35,22 +53,9 @@ class Menu extends Component {
                 </Navbar.Collapse>
             </Navbar>
             </div>);
+*/
 
-/*
-            <HashRouter>
-                <div>
-                    <h1>MENU</h1>
-                    <ul className="header">
-                        <li><NavLink exact to="/about">About us</NavLink></li>
-                        <li><NavLink exact to="/prices">Prices</NavLink></li>
-                        <li><NavLink exact to="/order">Order</NavLink></li>
-                        <li><NavLink exact to="/contact">Contact</NavLink></li>
-                    </ul>
-                    <div className="content">
-                        <Route exact path="/order" component={Order}/>
-                    </div>
-                </div>
-            </HashRouter>);*/
+
     }
 }
 

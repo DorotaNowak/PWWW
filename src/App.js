@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import Menu from "./Menu";
 import ParallaxScrolling from "./ParallaxScrolling";
-import {Parallax} from "react-parallax";
 //import './css/main.css';
 
 const styles = {
@@ -27,7 +26,6 @@ class App extends Component {
                         <Menu name="Parallax"/>
                     </div>
                 </header>
-                <ParallaxScrolling></ParallaxScrolling>
             </div>
         )
     }
