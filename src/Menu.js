@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Order from "./Order";
 import ParallaxScrolling from "./ParallaxScrolling";
+import About from "./About";
 
 class Menu extends Component {
     componentDidMount() {
@@ -19,11 +20,12 @@ class Menu extends Component {
                 <HashRouter>
                     <div>
                         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-                            <Navbar.Brand href="/">Cutie Pie</Navbar.Brand>
+                            <Navbar.Brand href="/"><img src='/logo1.png' alt="CS" height="60"/></Navbar.Brand>
+
                             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="mr-auto">
-                                    <Nav.Link as={Link} to="/order">About us</Nav.Link>
+                                    <Nav.Link as={Link} to="/about">About us</Nav.Link>
                                     <Nav.Link as={Link} to="/pricing">Pricing</Nav.Link>
                                     <NavDropdown title="Offer" id="collasible-nav-dropdown">
                                         <NavDropdown.Item as={Link} to="/wedding">Wedding cakes</NavDropdown.Item>
@@ -37,7 +39,7 @@ class Menu extends Component {
                             </Navbar.Collapse>
                         </Navbar>
                         <div className="content">
-                            <Route exact path="/order" component={Order}/>
+                            <Route exact path="/about" component={About}/>
                             <Route exact path="/pricing" component={Order}/>
                             <Route exact path="/" component={ParallaxScrolling}/>
                         </div>

@@ -1,0 +1,14 @@
+.main {
+    position:relative;
+    width: 300px;
+    min-height: 60px;
+    margin-left: 60px;
+    padding-top:15px;
+}
+
+.box{
+    margin-top: 100px;
+    margin-left: 0px;
+    color: white;
+    text-align: justify;
+}
