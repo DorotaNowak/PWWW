@@ -17,25 +17,26 @@ const insideStyles = {
 };
 
 
+
 class ParallaxScrolling extends Component {
     render() {
         return (
             <div>
                 <div style={styles}>
                     <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide1.jpg')}
-                              strength={500}>
+                              strength={400}>
                         <div style={{height: 500}}>
                             <div className="hsContainer">
                                 <div className="hsContent" data-center="opacity: 1" data-106-top="opacity: 0"
                                      data-anchor-target="#slide-1 h2">
-                                    <h2>Welcome!</h2>
+                                    <h1>Welcome!</h1>
                                 </div>
                             </div>
                         </div>
                     </Parallax>
                     <h1>| | |</h1>
                     <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide3.jpg')}
-                              blur={{min: -1, max: 2}}>
+                              strength={400} blur={{min: -1, max: 2}}>
                         <div style={{height: 500}}>
                             <div className="hsContainer">
                                 <div className="hsContent" data-center="opacity: 1" data-106-top="opacity: 0"
@@ -64,7 +65,7 @@ class ParallaxScrolling extends Component {
                     <h1>| | |</h1>
                     <Parallax
                         bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide5.jpg')}
-                        strength={300}
+                        strength={400}
                         renderLayer={percentage => (
                             <div>
                                 <div
@@ -83,13 +84,14 @@ class ParallaxScrolling extends Component {
                         )}
                     >
                         <div style={{height: 500}}>
-                            <div style={insideStyles}>renderProp</div>
+                            <div style={insideStyles}>Check our menu!</div>
                         </div>
                     </Parallax>
                     <Parallax>
                         <div style={{height: 500}}>
                             <div style={insideStyles}>More questions? Contact us!<br/>
-                            Phone number: 740-824-8279
+                            Phone number: 740-824-8279<br/>
+                                <img src='/logo1.png' alt="CS" height="150"/>
                             </div>
                         </div>
                     </Parallax>
