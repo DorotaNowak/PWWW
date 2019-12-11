@@ -1,14 +1,19 @@
 .main {
     position:relative;
-    width: 300px;
+    width: 350px;
     min-height: 60px;
-    margin-left: 60px;
+    margin-left: 100px;
     padding-top:15px;
 }
 
 .box{
+    font-family: sans-serif;
     margin-top: 100px;
     margin-left: 0px;
-    color: white;
+    color: lightgray;
     text-align: justify;
+}
+
+p {
+    font-size: 20px;
 }

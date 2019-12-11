@@ -8,11 +8,17 @@ import {
 import Order from "./Order";
 import ParallaxScrolling from "./ParallaxScrolling";
 import About from "./About";
+import CommentBox from "./CommentBox";
+
+
+
 
 class Menu extends Component {
     componentDidMount() {
         document.title = 'Cutie Pie';
     }
+
+
 
     render() {
         return (
@@ -28,19 +34,18 @@ class Menu extends Component {
                                     <Nav.Link as={Link} to="/about">About us</Nav.Link>
                                     <Nav.Link as={Link} to="/pricing">Pricing</Nav.Link>
                                     <NavDropdown title="Offer" id="collasible-nav-dropdown">
+                                        <NavDropdown.Item as={Link} to="/products">Our products</NavDropdown.Item>
+                                        <NavDropdown.Divider/>
                                         <NavDropdown.Item as={Link} to="/wedding">Wedding cakes</NavDropdown.Item>
                                         <NavDropdown.Item as={Link} to="/children">Cakes for children</NavDropdown.Item>
-                                        <NavDropdown.Item as={Link} to="/desserts">Other cakes</NavDropdown.Item>
-                                        <NavDropdown.Divider/>
-                                        <NavDropdown.Item as={Link} to="/special">Special orders</NavDropdown.Item>
                                     </NavDropdown>
-                                    <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                                    <Nav.Link as={Link} to="/review">Review</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Navbar>
                         <div className="content">
                             <Route exact path="/about" component={About}/>
-                            <Route exact path="/pricing" component={Order}/>
+                            <Route exact path="/review" component={CommentBox}/>
                             <Route exact path="/" component={ParallaxScrolling}/>
                         </div>
                     </div>

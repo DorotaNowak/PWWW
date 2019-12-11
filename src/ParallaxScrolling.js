@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {Parallax} from "react-parallax";
+import './css/slides.css';
 
 const styles = {
     fontFamily: "sans-serif",
@@ -24,23 +25,40 @@ class ParallaxScrolling extends Component {
                     <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide1.jpg')}
                               strength={500}>
                         <div style={{height: 500}}>
-                            <div style={insideStyles}>WELCOM TO CUTIE PIE!</div>
+                            <div className="hsContainer">
+                                <div className="hsContent" data-center="opacity: 1" data-106-top="opacity: 0"
+                                     data-anchor-target="#slide-1 h2">
+                                    <h2>Welcome!</h2>
+                                </div>
+                            </div>
                         </div>
                     </Parallax>
                     <h1>| | |</h1>
                     <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide3.jpg')}
                               blur={{min: -1, max: 2}}>
                         <div style={{height: 500}}>
-                            <div style={insideStyles}>The best bakery in the world!</div>
+                            <div className="hsContainer">
+                                <div className="hsContent" data-center="opacity: 1" data-106-top="opacity: 0"
+                                     data-anchor-target="#slide-1 h2">
+                                    <h2>Order the cake<br/>you need</h2>
+                                    <p>We offer many different cakes and desserts in our shop.</p>
+                                </div>
+                            </div>
                         </div>
                     </Parallax>
                     <h1>| | |</h1>
-                    <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide4.jpg')}
+                    <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide7.jpg')}
                               strength={400}>
                         <div style={{
                             height: 500
                         }}>
-                            <div style={insideStyles}>Reverse direction</div>
+                            <div className="hsContainer">
+                                <div className="hsContent" data-center="opacity: 1" data-106-top="opacity: 0"
+                                     data-anchor-target="#slide-1 h2">
+                                    <h2>Try our delicious<br/>desserts and cakes</h2>
+                                    <p>We offer many different cakes and desserts in our shop.</p>
+                                </div>
+                            </div>
                         </div>
                     </Parallax>
                     <h1>| | |</h1>
@@ -70,7 +88,9 @@ class ParallaxScrolling extends Component {
                     </Parallax>
                     <Parallax>
                         <div style={{height: 500}}>
-                            <div style={insideStyles}>More questions? Contact us!</div>
+                            <div style={insideStyles}>More questions? Contact us!<br/>
+                            Phone number: 740-824-8279
+                            </div>
                         </div>
                     </Parallax>
                 </div>
