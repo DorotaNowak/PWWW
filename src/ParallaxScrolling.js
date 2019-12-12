@@ -23,7 +23,7 @@ class ParallaxScrolling extends Component {
         return (
             <div>
                 <div style={styles}>
-                    <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide1.jpg')}
+                    <Parallax bgImage={require('./img/slide1.jpg')}
                               strength={400}>
                         <div style={{height: 500}}>
                             <div className="hsContainer">
@@ -35,7 +35,7 @@ class ParallaxScrolling extends Component {
                         </div>
                     </Parallax>
                     <h1>| | |</h1>
-                    <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide3.jpg')}
+                    <Parallax bgImage={require('./img/slide3.jpg')}
                               strength={400} blur={{min: -1, max: 2}}>
                         <div style={{height: 500}}>
                             <div className="hsContainer">
@@ -48,7 +48,7 @@ class ParallaxScrolling extends Component {
                         </div>
                     </Parallax>
                     <h1>| | |</h1>
-                    <Parallax bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide7.jpg')}
+                    <Parallax bgImage={require('./img/slide7.jpg')}
                               strength={400}>
                         <div style={{
                             height: 500
@@ -64,7 +64,7 @@ class ParallaxScrolling extends Component {
                     </Parallax>
                     <h1>| | |</h1>
                     <Parallax
-                        bgImage={require('C:\\Users\\Dorota Nowak\\Desktop\\PWWW\\myapp\\src\\img\\slide5.jpg')}
+                        bgImage={require('./img/slide5.jpg')}
                         strength={400}
                         renderLayer={percentage => (
                             <div>
