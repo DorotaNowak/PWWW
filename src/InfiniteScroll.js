@@ -2,6 +2,7 @@ import React from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import comments from './comments';
 import Comment from "./Comment";
+import scroll from "./css/scroll.css"
 
 
 let splitter = Math.ceil(comments.length / 2);
@@ -9,7 +10,7 @@ let firstpart = comments.splice(0, splitter);
 let secondpart = comments.splice(splitter)
 
 const style = {
-    border: "1px solid green",
+
 };
 
 class MyInfiniteScroll extends React.Component {
@@ -32,12 +33,12 @@ class MyInfiniteScroll extends React.Component {
             this.setState({
                 items: this.state.items.concat(comments)
             });
-        }, 1000);
+        }, 2000);
     };
 
     render() {
         return (
-            <div>
+            <div className="comment-box">
                 <h1>Your reviews</h1>
                 <hr/>
                 <InfiniteScroll
@@ -47,13 +48,13 @@ class MyInfiniteScroll extends React.Component {
                     loader={<h4>Loading...</h4>}
                     endMessage={
                         <p style={{textAlign: "center"}}>
-                            <b>Yay! You have seen it all</b>
+                            <b>That's everything!</b>
                         </p>
                     }
                 >
-                    {this.state.items.map((i, index) => (
+                    {this.state.items.map((comm, index) => (
                         <div style={style} key={index}>
-                            <Comment key={i.date} comment={i}>{i.text}</Comment><br/>
+                            <Comment key={comm.date} comment={comm}>{comm.text}</Comment>
                         </div>
                     ))}
                 </InfiniteScroll>

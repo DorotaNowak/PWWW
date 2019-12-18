@@ -17,7 +17,6 @@ const insideStyles = {
 };
 
 
-
 class ParallaxScrolling extends Component {
     render() {
         return (
@@ -90,7 +89,7 @@ class ParallaxScrolling extends Component {
                     <Parallax>
                         <div style={{height: 500}}>
                             <div style={insideStyles}>More questions? Contact us!<br/>
-                            Phone number: 740-824-8279<br/>
+                                Phone number: 740-824-8279<br/>
                                 <img src='/logo1.png' alt="CS" height="150"/>
                             </div>
                         </div>

@@ -8,6 +8,7 @@ import {
 import ParallaxScrolling from "./ParallaxScrolling";
 import About from "./About";
 import MyInfiniteScroll from "./InfiniteScroll";
+import Pricing from "./Pricing"
 
 
 class Menu extends Component {
@@ -34,12 +35,13 @@ class Menu extends Component {
                                         <NavDropdown.Item as={Link} to="/wedding">Wedding cakes</NavDropdown.Item>
                                         <NavDropdown.Item as={Link} to="/children">Cakes for children</NavDropdown.Item>
                                     </NavDropdown>
-                                    <Nav.Link as={Link} to="/review">Review</Nav.Link>
+                                    <Nav.Link as={Link} to="/review">Reviews</Nav.Link>
                                 </Nav>
                             </Navbar.Collapse>
                         </Navbar>
                         <div className="content">
                             <Route exact path="/about" component={About}/>
+                            <Route exact path="/pricing" component={Pricing}/>
                             <Route exact path="/review" component={MyInfiniteScroll}/>
                             <Route exact path="/" component={ParallaxScrolling}/>
                         </div>

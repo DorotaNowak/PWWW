@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './css/about.css';
 
-const image = require('./img/about1.jpg');
+const image = require('./img/cake2.jpg');
 
 const divStyle = {
     width: '100%',
@@ -11,7 +11,7 @@ const divStyle = {
     filter: 'FlipH'
 };
 
-class About extends Component {
+class Pricing extends Component {
     render() {
         return (
             <div style={divStyle}>
@@ -31,5 +31,5 @@ class About extends Component {
     }
 }
 
-export default About;
+export default Pricing;
 
