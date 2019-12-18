@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import ParallaxScrolling from "./ParallaxScrolling";
 import About from "./About";
-import CommentBox from "./CommentBox";
 import MyInfiniteScroll from "./InfiniteScroll";
 
 
@@ -41,8 +40,7 @@ class Menu extends Component {
                         </Navbar>
                         <div className="content">
                             <Route exact path="/about" component={About}/>
-                            <Route exact path="/review" component={CommentBox}/>
-                            <Route exact path="/products" component = {MyInfiniteScroll}/>
+                            <Route exact path="/review" component={MyInfiniteScroll}/>
                             <Route exact path="/" component={ParallaxScrolling}/>
                         </div>
                     </div>
