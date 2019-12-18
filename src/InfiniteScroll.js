@@ -2,12 +2,12 @@ import React from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import comments from './comments';
 import Comment from "./Comment";
-import scroll from "./css/scroll.css"
+import "./css/scroll.css"
 
 
 let splitter = Math.ceil(comments.length / 2);
 let firstpart = comments.splice(0, splitter);
-let secondpart = comments.splice(splitter)
+
 
 
 class MyInfiniteScroll extends React.Component {
@@ -51,7 +51,7 @@ class MyInfiniteScroll extends React.Component {
                 >
                     {this.state.items.map((comm) => (
                         <div>
-                            <Comment key={comm.date} comment={comm}>{comm.text}</Comment>
+                            <Comment comment={comm}>{comm.text}</Comment>
                         </div>
                     ))}
                 </InfiniteScroll>
