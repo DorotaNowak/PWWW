@@ -3,27 +3,27 @@ import React, {Component} from "react";
 class CommentForm extends Component {
     handleSubmit(e) {
         e.preventDefault();
+        var authorInput = document.getElementById("author");
+        var commentTextInput = document.getElementById("text");
 
-        var authorInput = "Dorota";
-        var commentTextInput = "Very good";
 
         var comment = {
-            author: authorInput,
-            text: commentTextInput
+            author: authorInput.value,
+            text: commentTextInput.value
         };
 
         this.props.saveComment(comment);
 
-        authorInput = '';
-        commentTextInput = '';
+        authorInput.value = '';
+        commentTextInput.value = '';
     }
 
     render() {
         return (
-            <form className="clearfix" onSubmit={this.handleSubmit}>
-                <input className="form-control" ref="author" type="text" placeholder="Your name"/>
+            <form className="clearfix" onSubmit={this.handleSubmit.bind(this)}>
+                <input className="form-control" ref="author" id="author" type="text" placeholder="Your name"/>
                 <br/>
-                <textarea className="form-control" ref="text" rows="3" placeholder="Your comment"></textarea>
+                <textarea className="form-control" ref="text" id = "text" rows="3" placeholder="Your comment"></textarea>
                 <br/>
                 <button className="btn btn-primary pull-right">Send</button>
             </form>

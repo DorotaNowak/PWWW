@@ -5,20 +5,16 @@ import {
     Route,
     HashRouter
 } from "react-router-dom";
-import Order from "./Order";
 import ParallaxScrolling from "./ParallaxScrolling";
 import About from "./About";
 import CommentBox from "./CommentBox";
-
-
+import MyInfiniteScroll from "./InfiniteScroll";
 
 
 class Menu extends Component {
     componentDidMount() {
         document.title = 'Cutie Pie';
     }
-
-
 
     render() {
         return (
@@ -46,6 +42,7 @@ class Menu extends Component {
                         <div className="content">
                             <Route exact path="/about" component={About}/>
                             <Route exact path="/review" component={CommentBox}/>
+                            <Route exact path="/products" component = {MyInfiniteScroll}/>
                             <Route exact path="/" component={ParallaxScrolling}/>
                         </div>
                     </div>

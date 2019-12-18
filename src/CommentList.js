@@ -3,9 +3,10 @@ import Comment from "./Comment";
 
     class CommentList extends Component{
         comments(){
-            return this.props.comments.map(function(comment) {
-                return <Comment key={comment.date} comment={comment}>{comment.text}</Comment>
-            });
+            console.log("comments in CommentLISt");
+                return this.props.comments.map(function (comment) {
+                    return <Comment key={comment.date} comment={comment}>{comment.text}</Comment>
+                });
         }
         render(){
             return (
