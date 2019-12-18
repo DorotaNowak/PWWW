@@ -5,6 +5,7 @@ import {
     Route,
     HashRouter
 } from "react-router-dom";
+
 import ParallaxScrolling from "./ParallaxScrolling";
 import About from "./About";
 import MyInfiniteScroll from "./InfiniteScroll";

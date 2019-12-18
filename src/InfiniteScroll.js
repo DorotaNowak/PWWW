@@ -9,9 +9,6 @@ let splitter = Math.ceil(comments.length / 2);
 let firstpart = comments.splice(0, splitter);
 let secondpart = comments.splice(splitter)
 
-const style = {
-
-};
 
 class MyInfiniteScroll extends React.Component {
 
@@ -52,8 +49,8 @@ class MyInfiniteScroll extends React.Component {
                         </p>
                     }
                 >
-                    {this.state.items.map((comm, index) => (
-                        <div style={style} key={index}>
+                    {this.state.items.map((comm) => (
+                        <div>
                             <Comment key={comm.date} comment={comm}>{comm.text}</Comment>
                         </div>
                     ))}

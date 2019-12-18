@@ -16,23 +16,31 @@
     padding: 0 8%;
     text-align: center
 }
+
+.hsContent h1 {
+    font-size: 70px;
+}
+
 .hsContent h2,
 .copy h2 {
     color: white;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 48px;
     margin-bottom: 12px;
 }
+
 .hsContent p {
     width: 400px;
     margin: 0 auto;
     color: lightgray;
 }
+
 .hsContent a {
     color: lightgray;
     text-decoration: underline;
 }
+
 .bgBlack {
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 3px 10px;
 }

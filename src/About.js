@@ -7,8 +7,7 @@ const divStyle = {
     width: '100%',
     height: '800px',
     backgroundImage: `url(${image})`,
-    backgroundSize: 'cover',
-    filter: 'FlipH'
+    backgroundSize: 'cover'
 };
 
 class About extends Component {
