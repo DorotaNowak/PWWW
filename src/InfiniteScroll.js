@@ -5,9 +5,8 @@ import Comment from "./Comment";
 import "./css/scroll.css"
 
 
-let splitter = Math.ceil(comments.length / 2);
+let splitter = 10;
 let firstpart = comments.splice(0, splitter);
-
 
 
 class MyInfiniteScroll extends React.Component {
@@ -18,8 +17,7 @@ class MyInfiniteScroll extends React.Component {
     };
 
     fetchMoreData = () => {
-        console.log(firstpart);
-        console.log(comments);
+        firstpart = comments.splice(0,splitter);
         if (this.state.items.length >= 100) {
             this.setState({hasMore: false});
             return;
@@ -28,7 +26,7 @@ class MyInfiniteScroll extends React.Component {
         // 20 more records in .5 secs
         setTimeout(() => {
             this.setState({
-                items: this.state.items.concat(comments)
+                items: this.state.items.concat(firstpart)
             });
         }, 2000);
     };

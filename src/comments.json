@@ -103,5 +103,410 @@
     "author": "Tom",
     "date": "05/12/2019",
     "text": "I would definitely return to this place, and I suggest others do, too!"
+  },
+  {
+    "author": "Dan D.",
+    "date": "01/01/2011",
+    "text": "Very little space but full of life. Young people with laptops, people walking the dog (entering with the dog), people of all ages working nearby and stopping to have a coffee. Has small place outside. It's so relaxing there. The team of people is very knowledgeable about coffee. And yes, the most important: the have good quality coffee and tea. Try it. I go there at least once per months, I work nearby."
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2011",
+    "text": "The best desserts I've ever eaten!"
+  },
+  {
+    "author": "Katherine",
+    "date": "25/07/2011",
+    "text": "Everything's perfect!"
+  },
+  {
+    "author": "Donna",
+    "date": "01/07/2012",
+    "text": "I brought a lemon blueberry tart for my friend's birthday, and she loved it."
+  },
+  {
+    "author": "John Smith",
+    "date": "13/07/2012",
+    "text": "This delicious donut just blew mine and my sisters minds. it's buttery cream melted in my mouth. Made me feel privileged to be here."
+  },
+  {
+    "author": "Tommy",
+    "date": "25/03/2012",
+    "text": "One of the places I really like!"
+  },
+  {
+    "author": "Danilo",
+    "date": "03/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2013",
+    "text": "The food here looks pretty, but it really does not taste good. And the employees are about the least welcoming and helpful I've ever encountered."
+  },
+  {
+    "author": "April Madeline",
+    "date": "25/07/2013",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "02/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "05/07/2014",
+    "text": "I'll come back!"
+  },
+  {
+    "author": "Sonia",
+    "date": "16/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "01/10/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Katieeee",
+    "date": "15/10/2015",
+    "text": "Pumpkin latte was the best in my life..."
+  },
+  {
+    "author": "Belle",
+    "date": "25/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Christopher F.",
+    "date": "01/11/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "01/12/2019",
+    "text": "Very good coffee..."
+  },
+  {
+    "author": "Marco M.",
+    "date": "02/12/2019",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Lola",
+    "date": "03/12/2019",
+    "text": "Bright cafe space with fantastic tea lattes, lots of plants, and the best vegan sticky buns. The Rose-Palo Santo tea latte is amazing."
+  },
+  {
+    "author": "Lisa",
+    "date": "04/12/2019",
+    "text": "Very quick service, incredible pretzel, delicious drinks."
+  },
+  {
+    "author": "Tom",
+    "date": "05/12/2019",
+    "text": "I would definitely return to this place, and I suggest others do, too!"
+  },
+  {
+    "author": "Dan D.",
+    "date": "01/01/2011",
+    "text": "Very little space but full of life. Young people with laptops, people walking the dog (entering with the dog), people of all ages working nearby and stopping to have a coffee. Has small place outside. It's so relaxing there. The team of people is very knowledgeable about coffee. And yes, the most important: the have good quality coffee and tea. Try it. I go there at least once per months, I work nearby."
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2011",
+    "text": "The best desserts I've ever eaten!"
+  },
+  {
+    "author": "Katherine",
+    "date": "25/07/2011",
+    "text": "Everything's perfect!"
+  },
+  {
+    "author": "Donna",
+    "date": "01/07/2012",
+    "text": "I brought a lemon blueberry tart for my friend's birthday, and she loved it."
+  },
+  {
+    "author": "John Smith",
+    "date": "13/07/2012",
+    "text": "This delicious donut just blew mine and my sisters minds. it's buttery cream melted in my mouth. Made me feel privileged to be here."
+  },
+  {
+    "author": "Tommy",
+    "date": "25/03/2012",
+    "text": "One of the places I really like!"
+  },
+  {
+    "author": "Danilo",
+    "date": "03/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2013",
+    "text": "The food here looks pretty, but it really does not taste good. And the employees are about the least welcoming and helpful I've ever encountered."
+  },
+  {
+    "author": "April Madeline",
+    "date": "25/07/2013",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "02/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "05/07/2014",
+    "text": "I'll come back!"
+  },
+  {
+    "author": "Sonia",
+    "date": "16/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "01/10/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Katieeee",
+    "date": "15/10/2015",
+    "text": "Pumpkin latte was the best in my life..."
+  },
+  {
+    "author": "Belle",
+    "date": "25/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Christopher F.",
+    "date": "01/11/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "01/12/2019",
+    "text": "Very good coffee..."
+  },
+  {
+    "author": "Marco M.",
+    "date": "02/12/2019",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Lola",
+    "date": "03/12/2019",
+    "text": "Bright cafe space with fantastic tea lattes, lots of plants, and the best vegan sticky buns. The Rose-Palo Santo tea latte is amazing."
+  },
+  {
+    "author": "Lisa",
+    "date": "04/12/2019",
+    "text": "Very quick service, incredible pretzel, delicious drinks."
+  },
+  {
+    "author": "Tom",
+    "date": "05/12/2019",
+    "text": "I would definitely return to this place, and I suggest others do, too!"
+  },
+  {
+    "author": "Dan D.",
+    "date": "01/01/2011",
+    "text": "Very little space but full of life. Young people with laptops, people walking the dog (entering with the dog), people of all ages working nearby and stopping to have a coffee. Has small place outside. It's so relaxing there. The team of people is very knowledgeable about coffee. And yes, the most important: the have good quality coffee and tea. Try it. I go there at least once per months, I work nearby."
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2011",
+    "text": "The best desserts I've ever eaten!"
+  },
+  {
+    "author": "Katherine",
+    "date": "25/07/2011",
+    "text": "Everything's perfect!"
+  },
+  {
+    "author": "Donna",
+    "date": "01/07/2012",
+    "text": "I brought a lemon blueberry tart for my friend's birthday, and she loved it."
+  },
+  {
+    "author": "John Smith",
+    "date": "13/07/2012",
+    "text": "This delicious donut just blew mine and my sisters minds. it's buttery cream melted in my mouth. Made me feel privileged to be here."
+  },
+  {
+    "author": "Tommy",
+    "date": "25/03/2012",
+    "text": "One of the places I really like!"
+  },
+  {
+    "author": "Danilo",
+    "date": "03/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2013",
+    "text": "The food here looks pretty, but it really does not taste good. And the employees are about the least welcoming and helpful I've ever encountered."
+  },
+  {
+    "author": "April Madeline",
+    "date": "25/07/2013",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "02/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "05/07/2014",
+    "text": "I'll come back!"
+  },
+  {
+    "author": "Sonia",
+    "date": "16/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "01/10/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Katieeee",
+    "date": "15/10/2015",
+    "text": "Pumpkin latte was the best in my life..."
+  },
+  {
+    "author": "Belle",
+    "date": "25/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Christopher F.",
+    "date": "01/11/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "01/12/2019",
+    "text": "Very good coffee..."
+  },
+  {
+    "author": "Marco M.",
+    "date": "02/12/2019",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Lola",
+    "date": "03/12/2019",
+    "text": "Bright cafe space with fantastic tea lattes, lots of plants, and the best vegan sticky buns. The Rose-Palo Santo tea latte is amazing."
+  },
+  {
+    "author": "Lisa",
+    "date": "04/12/2019",
+    "text": "Very quick service, incredible pretzel, delicious drinks."
+  },
+  {
+    "author": "Tom",
+    "date": "05/12/2019",
+    "text": "I would definitely return to this place, and I suggest others do, too!"
+  },
+  {
+    "author": "Dan D.",
+    "date": "01/01/2011",
+    "text": "Very little space but full of life. Young people with laptops, people walking the dog (entering with the dog), people of all ages working nearby and stopping to have a coffee. Has small place outside. It's so relaxing there. The team of people is very knowledgeable about coffee. And yes, the most important: the have good quality coffee and tea. Try it. I go there at least once per months, I work nearby."
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2011",
+    "text": "The best desserts I've ever eaten!"
+  },
+  {
+    "author": "Katherine",
+    "date": "25/07/2011",
+    "text": "Everything's perfect!"
+  },
+  {
+    "author": "Donna",
+    "date": "01/07/2012",
+    "text": "I brought a lemon blueberry tart for my friend's birthday, and she loved it."
+  },
+  {
+    "author": "John Smith",
+    "date": "13/07/2012",
+    "text": "This delicious donut just blew mine and my sisters minds. it's buttery cream melted in my mouth. Made me feel privileged to be here."
+  },
+  {
+    "author": "Tommy",
+    "date": "25/03/2012",
+    "text": "One of the places I really like!"
+  },
+  {
+    "author": "Danilo",
+    "date": "03/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "15/07/2013",
+    "text": "The food here looks pretty, but it really does not taste good. And the employees are about the least welcoming and helpful I've ever encountered."
+  },
+  {
+    "author": "April Madeline",
+    "date": "25/07/2013",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "02/07/2013",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "05/07/2014",
+    "text": "I'll come back!"
+  },
+  {
+    "author": "Sonia",
+    "date": "16/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Danilo",
+    "date": "01/10/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Katieeee",
+    "date": "15/10/2015",
+    "text": "Pumpkin latte was the best in my life..."
+  },
+  {
+    "author": "Belle",
+    "date": "25/10/2015",
+    "text": "Nothing to say."
+  },
+  {
+    "author": "Christopher F.",
+    "date": "01/11/2015",
+    "text": "I'll be back!"
+  },
+  {
+    "author": "Lara",
+    "date": "01/12/2019",
+    "text": "Very good coffee..."
+  },
+  {
+    "author": "Marco M.",
+    "date": "02/12/2019",
+    "text": "Nothing to say."
   }
 ]

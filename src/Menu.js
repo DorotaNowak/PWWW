@@ -10,6 +10,7 @@ import ParallaxScrolling from "./ParallaxScrolling";
 import About from "./About";
 import MyInfiniteScroll from "./InfiniteScroll";
 import Pricing from "./Pricing"
+import WeddingCakes from "./WeddingCakes";
 
 
 class Menu extends Component {
@@ -45,6 +46,7 @@ class Menu extends Component {
                             <Route exact path="/pricing" component={Pricing}/>
                             <Route exact path="/review" component={MyInfiniteScroll}/>
                             <Route exact path="/" component={ParallaxScrolling}/>
+                            <Route exact path="/wedding" component={WeddingCakes}/>
                         </div>
                     </div>
                 </HashRouter></div>);
