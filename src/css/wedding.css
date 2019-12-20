@@ -3,11 +3,17 @@
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
-    width: 230px;
+    width: 250px;
 }
-
+.container {
+    font-family: sans-serif;
+    padding-top: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: #36486b;
+}
 .image {
-    width: 230px;
+    width: 100%;
     height: auto;
 }
 
@@ -18,7 +24,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    width: 230px;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: #36486b;

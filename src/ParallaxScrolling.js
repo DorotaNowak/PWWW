@@ -41,7 +41,7 @@ class ParallaxScrolling extends Component {
                                 <div className="hsContent" data-center="opacity: 1" data-106-top="opacity: 0"
                                      data-anchor-target="#slide-1 h2">
                                     <h2>Order the cake<br/>you need</h2>
-                                    <p>We offer many different cakes and desserts in our shop.</p>
+                                    <p>We offer many different cakes and desserts in our patisserie</p>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ class ParallaxScrolling extends Component {
                                 <div className="hsContent" data-center="opacity: 1" data-106-top="opacity: 0"
                                      data-anchor-target="#slide-1 h2">
                                     <h2>Try our delicious<br/>desserts and coffee</h2>
-                                    <p>You'll find many types of grains here</p>
+                                    <p>You'll find many types of coffee beans here, from the most popular to the most special</p>
                                 </div>
                             </div>
                         </div>

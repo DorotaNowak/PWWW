@@ -11,29 +11,30 @@ class WeddingCakes extends Component {
         return (
             <div>
                 <div className="container">
+                    <h2>Check the most popular wedding cakes we offer!</h2>
                     <div className="box">
                         <img src={image1} alt="Avatar" className="image"/>
                         <div className="overlay">
-                            <div className="text">Hello World</div>
+                            <div className="text">Elegant white cake</div>
                         </div>
                     </div>
 
                     <div className="box">
                         <img src={image2} alt="Avatar" className="image"/>
                         <div className="overlay">
-                            <div className="text">Hello World</div>
+                            <div className="text">Cake with fruits</div>
                         </div>
                     </div>
                     <div className="box">
                         <img src={image3} alt="Avatar" className="image"/>
                         <div className="overlay">
-                            <div className="text">Hello World</div>
+                            <div className="text">Naked cake with flowers</div>
                         </div>
                     </div>
                     <div className="box">
                         <img src={image4} alt="Avatar" className="image"/>
                         <div className="overlay">
-                            <div className="text">Hello World</div>
+                            <div className="text">Muffin cake</div>
                         </div>
                     </div>
                 </div>
